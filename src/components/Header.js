@@ -7,8 +7,10 @@ function Header() {
         <div className="header">
             <ul>
                 <li><a className="first">This is haha</a></li>
+                
             </ul>
             <img src={pic1} style={{height: "100px", width: "100px"}} />
+            <h1>HI PO</h1>
         </div>
     )
 }
