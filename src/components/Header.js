@@ -10,7 +10,7 @@ function Header() {
                 
             </ul>
             <img src={pic1} style={{height: "100px", width: "100px"}} />
-            <h1>Hi world</h1>
+            <h1>Hi world!</h1>
         </div>
     )
 }
