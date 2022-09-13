@@ -25,12 +25,14 @@ section{
 }
 header .logo{
     position: relative;
-    max-width: 100px;
+   max-width: 100px;
+   
 }
 header ul{
     position: relative;
     display: flex;
     align-items: center;
+    padding-top: 12px;
 
 }
 header ul li {
@@ -42,4 +44,48 @@ header ul li a{
     margin-left: 40px;
     color: white;
     margin-right: 15px;
+}
+.mint {
+    position: relative;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.mint .textBox{
+    position: relative;
+    color:white;
+    text-align: left;
+    max-width: 700px;
+    padding-left: 50px;
+}
+.mint .textBox p{
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1.4rem;
+    letter-spacing: 1px;
+
+}
+.mint .mint-btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 4px 20px;
+    background: green;
+    border-radius: 10px;
+    font-weight: bold;
+    letter-spacing: 1px;
+ 
+}
+.mint .mint-btn a{
+    text-decoration: none;
+    background: green;
+    color: black;
+}
+.mint .imgBox{
+    width: 500px;
+    display: flex;
+    justify-content: flex-start;
+}
+.mint .imgBox img{
+    max-width: 300px;
 }
