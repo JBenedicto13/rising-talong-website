@@ -1,4 +1,91 @@
-.first {
-    color: green;
-    font-size: 52px;
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: purple;
+}
+header{
+   position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+section{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header .logo{
+    position: relative;
+   max-width: 100px;
+   
+}
+header ul{
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding-top: 12px;
+
+}
+header ul li {
+    list-style: none;
+}
+header ul li a{
+    display: inline-block;
+    text-decoration: none;
+    margin-left: 40px;
+    color: white;
+    margin-right: 15px;
+}
+.mint {
+    position: relative;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.mint .textBox{
+    position: relative;
+    color:white;
+    text-align: left;
+    max-width: 700px;
+    padding-left: 50px;
+}
+.mint .textBox p{
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1.4rem;
+    letter-spacing: 1px;
+
+}
+.mint .mint-btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 4px 20px;
+    background: green;
+    border-radius: 10px;
+    font-weight: bold;
+    letter-spacing: 1px;
+ 
+}
+.mint .mint-btn a{
+    text-decoration: none;
+    background: green;
+    color: black;
+}
+.mint .imgBox{
+    width: 500px;
+    display: flex;
+    justify-content: flex-start;
+}
+.mint .imgBox img{
+    max-width: 300px;
 }

@@ -10,7 +10,7 @@ function App() {
         <Navbar />
         <Header />
         <div>
-          <p>Hello World!</p>
+         
         </div>
     </div>
   );
