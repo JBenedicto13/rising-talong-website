@@ -1,18 +1,23 @@
 import React from "react";
 import '../styles/header.css';
-import pic1 from '../assets/pic1.jpg';
-
+import logo from '../assets/logo.png';
+import dc from '../assets/discord.png';
+import open_sea from '../assets/opensea.png';
+import twitter from '../assets/twitter.png';
 
 function Header() {
     return(
         
             <header>
-                    <img src="" alt="LOGO" className="logo"></img>
+                    <img src={logo} className="logo"></img>
                     <ul>
-                        <li><a>ABOUT</a></li>
-                        <li><a>ROADMAP</a></li>
-                        <li><a>TEAM</a></li>
-                        <li><a>MINT</a></li>
+                        <li><a href="#">ABOUT</a></li>
+                        <li><a href="#">ROADMAP</a></li>
+                        <li><a href="#">TEAM</a></li>
+                        <li><a href="#">MINT</a></li>
+                        <li><a href="#"><img src={twitter} className="social"></img></a></li>
+                        <li><a href="#"><img src={dc} className="social"></img></a></li>
+                        <li><a href="#"><img src={open_sea} className="social"></img></a></li>
                     </ul>
             </header>
         
