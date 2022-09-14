@@ -1,0 +1,35 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+section {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  padding: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+}
+.about{
+  width: 80%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+}
+.eggplants{
+  position: relative;
+  max-width: 290px;
+}
+.about .text-container{
+  color:white;
+  position: relative;
+  max-width: 400px;
+  margin-right: 1rem;
+}
+.about .text-container p{
+  line-height: 1.5rem;
+}
