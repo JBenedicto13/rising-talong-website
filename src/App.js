@@ -1,14 +1,15 @@
 
 import './App.css';
 import Header from './components/Header';
-import Navbar from './components/Navbar';
-
+import About from './components/About';
+import Road_map from './components/Road_map';
 
 function App() {
   return (
     <div className="App">
-        <Navbar />
         <Header />
+        <About />
+        <Road_map />
         <div>
          
         </div>
