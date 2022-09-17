@@ -31,4 +31,5 @@ section {
 }
 .text-container ul li{
   margin-bottom: 10px;
+  position: relative;
 }
