@@ -6,7 +6,7 @@ import Road_map from './components/Road_map';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App ff-bristol">
         <Header />
         <About />
         <Road_map />
