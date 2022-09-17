@@ -16,6 +16,5 @@ code {
   font-family: "Bristol";
   src: local("GoldmanBold"),
    url("./font/Bristol/Bristol.otf") format("opentype");
-  font-weight: bold;
 }
   
