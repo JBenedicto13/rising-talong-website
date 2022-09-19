@@ -22,7 +22,7 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: purple;
+    background-color: #5A235A;
 }
 header .logo{
     position: relative;
