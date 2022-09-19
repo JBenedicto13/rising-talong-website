@@ -3,7 +3,7 @@ import '../styles/faqs.css'
 
 function Faqs() {
     return (
-        <section className="secteam">
+        <section className="faqsSec" id="faqsId">
             <div className="Faqs">
                 <div class="container text-center">
                     <div class="row faq-title">

@@ -5,19 +5,19 @@ import About from './components/About';
 import RoadMap from './components/RoadMap';
 import Faqs from './components/Faqs';
 import Team from './components/Team';
+import { BrowserRouter } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App ff-bristol">
+    <BrowserRouter>
+      <div className="App ff-bristol">
         <Header />
         <About />
         <RoadMap />
         <Faqs />
         <Team />
-        <div>
-         
-        </div>
-    </div>
+      </div>
+    </BrowserRouter>
   );
 }
 

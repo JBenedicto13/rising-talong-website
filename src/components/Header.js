@@ -6,15 +6,18 @@ import open_sea from '../assets/opensea.png';
 import twitter from '../assets/twitter.png';
 import short from '../assets/Short.png';
 
+//Routing
+import { HashLink as Link } from "react-router-hash-link";
+
 function Header() {
     return(
-        <section>
+        <section className="headerSec" id="headerId">
             <header>
                     <img src={logo} className="logo"></img>
                     <ul>
-                        <li><a href="#">ABOUT</a></li>
-                        <li><a href="#">ROADMAP</a></li>
-                        <li><a href="#">TEAM</a></li>
+                        <li><Link to='#aboutId'>ABOUT</Link></li>
+                        <li><Link to='#roadMapId'>ROADMAP</Link></li>
+                        <li><Link to='#teamId'>TEAM</Link></li>
                         <li><a href="#">MINT</a></li>
                         <li><a href="#"><img src={twitter} className="social"></img></a></li>
                         <li><a href="#"><img src={dc} className="social"></img></a></li>

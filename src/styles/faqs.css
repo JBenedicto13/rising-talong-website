@@ -4,13 +4,16 @@
     box-sizing: border-box;
 }
 
+section .faqsSec {
+    margin-top: 20px;
+}
+
 .Faqs {
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: #5A235A;
     width: 100%;
-    height: 100vh;
 }
 
 .Faqs h1 {

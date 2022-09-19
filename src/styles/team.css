@@ -4,6 +4,10 @@
     box-sizing: border-box;    
 }
 
+section .teamSec {
+    margin-top: 20px;
+}
+
 .team {
     background-color: #5A235A;
     width: 75%;
