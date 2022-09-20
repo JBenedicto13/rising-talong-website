@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+section .faqsSec {
+    margin-top: 20px;
+}
+
+.Faqs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #5A235A;
+    width: 100%;
+}
+
+.Faqs h1 {
+    color: #fff;
+    text-align: left;
+    letter-spacing: 7px;
+    font-size: 32px;
+}
+
+.faq-title {
+    margin-bottom: 50px;
+}
+
+.accordion-button {
+    background-color: #FEF5DA;
+    font-size: 24px;
+}
+
+.accordion-item {
+    background-color: #fff;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    font-size: 24px;
+}
+
+.accordion-flush .accordion-item .accordion-button, .accordion-flush .accordion-item .accordion-button.collapsed {
+    border-radius: 12px;
+}
+
+.accordion-flush .accordion-item .accordion-button, .accordion-flush .accordion-item .accordion-button:not(.collapsed) {
+    border-radius: 12px 12px 0 0;
+}
+
+.accordion-flush .accordion-item {
+    border-radius: 0 0 12px 5px;
+    
+}
+.accordion-flush .accordion-item:not(.collapsed) {
+    border-radius: 12px;
+    border: 2px solid #000;
+}
+
+.accordion-button:hover {
+    background-color: #fff;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #000;
+    background-color: #fff;
+}
+
+.accordion-button:focus {
+    border: none;
+    box-shadow: none;
+}
+
+.accordion-body > p {
+    text-align: left;
+}
+
+.accordion-button::after {
+    background-image: url("https://akveo.github.io/eva-icons/outline/svg/plus-outline.svg");
+}
+.accordion-button:not(.collapsed)::after {
+    background-image: url("https://akveo.github.io/eva-icons/outline/svg/minus-outline.svg");
+}

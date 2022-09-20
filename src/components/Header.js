@@ -1,24 +1,62 @@
-import React from "react";
+import { React, useState } from "react";
 import '../styles/header.css';
 import logo from '../assets/logo.png';
 import dc from '../assets/discord.png';
+import dcGreen from '../assets/discord-green.png';
 import open_sea from '../assets/opensea.png';
+import open_seaGreen from '../assets/opensea-green.png';
 import twitter from '../assets/twitter.png';
+import twitterGreen from '../assets/twitter-green.png';
 import short from '../assets/Short.png';
 
+//Routing
+import { HashLink as Link } from "react-router-hash-link";
+
 function Header() {
+    const [enterTwitter, setEnterTwitter] = useState(false);
+    const [enterDc, setEnterDc] = useState(false);
+    const [enterOpensea, setEnterOpensea] = useState(false);
+
+
     return(
-        <section>
+        <section className="headerSec" id="headerId">
             <header>
                     <img src={logo} className="logo"></img>
                     <ul>
-                        <li><a href="#">ABOUT</a></li>
-                        <li><a href="#">ROADMAP</a></li>
-                        <li><a href="#">TEAM</a></li>
+                        <li><Link to='#aboutId'>ABOUT</Link></li>
+                        <li><Link to='#roadMapId'>ROADMAP</Link></li>
+                        <li><Link to='#teamId'>TEAM</Link></li>
                         <li><a href="#">MINT</a></li>
-                        <li><a href="#"><img src={twitter} className="social"></img></a></li>
-                        <li><a href="#"><img src={dc} className="social"></img></a></li>
-                        <li><a href="#"><img src={open_sea} className="social"></img></a></li>
+                        <li><a
+                            href="#"
+                            onMouseOver={() => setEnterTwitter(true)}
+                            onMouseOut={() => setEnterTwitter(false)}>
+                                <img
+                                    src={enterTwitter ? twitterGreen : twitter}
+                                    className="social">
+                                </img>
+                            </a>
+                        </li>
+                        <li><a
+                            onMouseOver={() => setEnterDc(true)}
+                            onMouseOut={() => setEnterDc(false)}
+                            href="#">
+                                <img
+                                    src={enterDc ? dcGreen : dc}
+                                    className="social">
+                                </img>
+                            </a>
+                        </li>
+                        <li><a
+                            onMouseOver={() => setEnterOpensea(true)}
+                            onMouseOut={() => setEnterOpensea(false)}
+                            href="#">
+                                <img
+                                    src={enterOpensea ? open_seaGreen : open_sea}
+                                    className="social">
+                                </img>
+                            </a>
+                        </li>
                     </ul>
             </header>
                     <div className="mint">

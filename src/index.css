@@ -11,3 +11,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: "Bristol";
+  src: local("GoldmanBold"),
+   url("./font/Bristol/Bristol.otf") format("opentype");
+}
+  

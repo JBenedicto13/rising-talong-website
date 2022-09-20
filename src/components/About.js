@@ -3,7 +3,7 @@ import '../styles/about.css';
 import eggplants from '../assets/eggplants.png';
 function About() {
   return (
-     <section>
+     <section className="aboutSec" id="aboutId">
         <div className="about">
         <div className="img-container">
             <img className="eggplants" src={eggplants}></img>

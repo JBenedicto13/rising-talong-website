@@ -22,7 +22,7 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: purple;
+    background-color: #5A235A;
 }
 header .logo{
     position: relative;
@@ -89,4 +89,8 @@ header ul li a{
 }
 .mint .imgBox img{
     max-width: 300px;
+}
+
+li a:hover {
+    color: #53AD45;
 }

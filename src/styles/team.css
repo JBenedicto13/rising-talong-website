@@ -1,0 +1,19 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;    
+}
+
+section .teamSec {
+    margin-top: 20px;
+}
+
+.team {
+    background-color: #5A235A;
+    width: 75%;
+}
+
+.team h1 {
+    color: #fff;
+    text-align: left;
+}

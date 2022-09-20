@@ -2,18 +2,22 @@
 import './App.css';
 import Header from './components/Header';
 import About from './components/About';
-import Road_map from './components/Road_map';
+import RoadMap from './components/RoadMap';
+import Faqs from './components/Faqs';
+import Team from './components/Team';
+import { BrowserRouter } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App">
+    <BrowserRouter>
+      <div className="App ff-bristol">
         <Header />
         <About />
-        <Road_map />
-        <div>
-         
-        </div>
-    </div>
+        <RoadMap />
+        <Faqs />
+        <Team />
+      </div>
+    </BrowserRouter>
   );
 }
 
