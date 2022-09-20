@@ -90,3 +90,7 @@ header ul li a{
 .mint .imgBox img{
     max-width: 300px;
 }
+
+li a:hover {
+    color: #53AD45;
+}
