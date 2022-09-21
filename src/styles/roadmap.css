@@ -9,15 +9,12 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-
   width: 100%;
-  
   background-image: url('../assets/background.png');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
   height: 100vh;
-  
 }
 .title {
   color: white;
