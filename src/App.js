@@ -5,6 +5,7 @@ import About from './components/About';
 import RoadMap from './components/RoadMap';
 import Faqs from './components/Faqs';
 import Team from './components/Team';
+import Partners from './components/Partners'
 import { BrowserRouter } from 'react-router-dom';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <RoadMap />
         <Faqs />
         <Team />
+        <Partners />
       </div>
     </BrowserRouter>
   );
