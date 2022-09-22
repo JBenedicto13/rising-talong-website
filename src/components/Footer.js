@@ -6,7 +6,7 @@ import dc from '../assets/discord.png';
 import open_sea from '../assets/opensea.png';
 function Footer(){
   return (
-    <section className="footer">
+    <div className="footer">
       <footer className="footerContainer">
         <div>
           <img src={logoFooter}></img>
@@ -34,7 +34,7 @@ function Footer(){
           </div>
         </div>
       </footer>
-    </section>
+    </div>
   )
 }
 export default Footer
