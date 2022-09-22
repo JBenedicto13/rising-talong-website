@@ -15,30 +15,30 @@ function Partners() {
         <div className="titlePartners"><h3>PARTNERS</h3></div>
         <div className="firstRow">
           <div>
-              <img className="logo" src={ininja}></img>
+              <img className="logo" src={ininja} alt="ininja"/>
           </div>
           <div>
-              <img className="logo" src={pixel}></img>
+              <img className="logo" src={pixel} alt="pixel"/>
           </div>
           <div>
-            <img className="logo" src={newbs}></img>
+            <img className="logo" src={newbs} alt="newbs"/>
           </div>
           <div>
-            <img className="logo" src={company}></img>
+            <img className="logo" src={company} alt="company"/>
           </div>
         </div>
         <div className="secondRow">
           <div>
-              <img className="logo" src={tclogo3}></img>
+              <img className="logo" src={tclogo3} alt="tclogo3"/>
           </div>
           <div>
-              <img className="logo" src={dye2row}></img>
+              <img className="logo" src={dye2row} alt="dye2row"/>
           </div>
           <div>
-            <img className="logo" src={meemoo}></img>
+            <img className="logo" src={meemoo} alt="meemoo"/>
           </div>
           <div>
-            <img className="logo" src={tshirt}></img>
+            <img className="logo" src={tshirt} alt="tshirt"/>
           </div>
         </div>
       </div>
