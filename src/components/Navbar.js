@@ -38,9 +38,11 @@ const Navbar = () => {
             <li>Mint</li>
           </Link>
           <li className="socialIcons"><a
-              href="https://twitter.com/"
+              href="https://twitter.com/risingeggplants"
               onMouseOver={() => setEnterTwitter(true)}
-              onMouseOut={() => setEnterTwitter(false)}>
+              onMouseOut={() => setEnterTwitter(false)}
+              target="_blank"
+              rel="noreferrer noopener">
                   <img
                       src={enterTwitter ? twitterGreen : twitter}
                       className="social"
@@ -51,7 +53,9 @@ const Navbar = () => {
           <li className="socialIcons"><a
               onMouseOver={() => setEnterDc(true)}
               onMouseOut={() => setEnterDc(false)}
-              href="https://discord.com/">
+              href="https://discord.com/"
+              target="_blank"
+              rel="noreferrer noopener">
                   <img
                       src={enterDc ? dcGreen : dc}
                       className="social"
@@ -62,7 +66,9 @@ const Navbar = () => {
           <li className="socialIcons"><a
               onMouseOver={() => setEnterOpensea(true)}
               onMouseOut={() => setEnterOpensea(false)}
-              href="https://opensea.io/">
+              href="https://opensea.io/"
+              target="_blank"
+              rel="noreferrer noopener">
                   <img
                       src={enterOpensea ? open_seaGreen : open_sea}
                       className="social"

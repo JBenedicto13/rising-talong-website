@@ -1,10 +1,16 @@
-import React from "react";
+import {React, useState} from "react";
 import '../styles/footer.css';
 import logoFooter from '../assets/logo.png';
-import twitter from '../assets/twitter.png';
 import dc from '../assets/discord.png';
+import dcGreen from '../assets/discord-green.png';
 import open_sea from '../assets/opensea.png';
+import open_seaGreen from '../assets/opensea-green.png';
+import twitter from '../assets/twitter.png';
+import twitterGreen from '../assets/twitter-green.png';
 function Footer(){
+  const [enterTwitter, setEnterTwitter] = useState(false);
+  const [enterDc, setEnterDc] = useState(false);
+  const [enterOpensea, setEnterOpensea] = useState(false);
   return (
     <div className="footer">
       <footer className="footerContainer">
@@ -17,13 +23,46 @@ function Footer(){
           <div>
             <ul>
               <li>
-                <a href="#"><img src={twitter} alt='twitter'></img></a>
+                <a
+                href="https://twitter.com/risingeggplants"
+                onMouseOver={() => setEnterTwitter(true)}
+                onMouseOut={() => setEnterTwitter(false)}
+                target="_blank"
+                rel="noreferrer noopener">
+                  <img
+                      src={enterTwitter ? twitterGreen : twitter}
+                      className="social"
+                      alt="twitterIcon"
+                  />
+                </a>
               </li>
               <li>
-                <a href="#"><img src={dc} alt='dc'></img></a>
+                <a
+                  onMouseOver={() => setEnterDc(true)}
+                  onMouseOut={() => setEnterDc(false)}
+                  href="https://discord.gg/EmJFMneTMk"
+                  target="_blank"
+                  rel="noreferrer noopener">
+                    <img
+                      src={enterDc ? dcGreen : dc}
+                      className="social"
+                      alt="dcIcon"
+                    />
+                  </a>
               </li>
               <li>
-                <a href="#"><img src={open_sea} alt='opensea'></img></a>
+                <a
+                  onMouseOver={() => setEnterOpensea(true)}
+                  onMouseOut={() => setEnterOpensea(false)}
+                  href="https://opensea.io/"
+                  target="_blank"
+                  rel="noreferrer noopener">
+                    <img
+                      src={enterOpensea ? open_seaGreen : open_sea}
+                      className="social"
+                      alt="openseaIcon">
+                    </img>
+                </a>
               </li>
               <li>
                 <a href="#"><button className="btn-mint">MINT</button></a>
