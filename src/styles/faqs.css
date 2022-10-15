@@ -14,6 +14,7 @@ section .faqsSec {
     justify-content: center;
     background-color: #5A235A;
     width: 100%;
+    overflow: hidden;
 }
 
 .Faqs h1 {

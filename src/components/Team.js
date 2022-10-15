@@ -26,7 +26,7 @@ function Team() {
         <section className="teamSec" id="teamId">
             <div className="team">
                 <h1>MEET THE TEAM</h1>
-                <div className="row">
+                <div className="row row1">
                     <div className="col cardDiv">
                         <img src={MartinC} alt='MartinC'></img>
                     </div>

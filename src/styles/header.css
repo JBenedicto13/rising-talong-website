@@ -2,19 +2,9 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    
 }
-header{
-   position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    padding: 20px 100px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-section{
+
+section {
     position: relative;
     width: 100%;
     min-height: 100vh;
@@ -23,29 +13,9 @@ section{
     justify-content: center;
     align-items: center;
     background-color: #5A235A;
+    overflow: hidden;
 }
-header .logo{
-    position: relative;
-   max-width: 100px;
-   
-}
-header ul{
-    position: relative;
-    display: flex;
-    align-items: center;
-    padding-top: 12px;
 
-}
-header ul li {
-    list-style: none;
-}
-header ul li a{
-    display: inline-block;
-    text-decoration: none;
-    margin-left: 40px;
-    color: white;
-    margin-right: 15px;
-}
 .mint {
     position: relative;
     display: flex;
@@ -53,14 +23,14 @@ header ul li a{
     justify-content: space-between;
     align-items: center;
 }
-.mint .textBox{
+.mint .textBox {
     position: relative;
     color:white;
     text-align: left;
     max-width: 700px;
     padding-left: 50px;
 }
-.mint .textBox p{
+.mint .textBox p {
     font-size: 14px;
     font-weight: bold;
     line-height: 1.4rem;
@@ -91,6 +61,8 @@ header ul li a{
     max-width: 300px;
 }
 
-li a:hover {
-    color: #53AD45;
+@media (max-width: 918px) {
+    .mint {
+        
+    }
 }
