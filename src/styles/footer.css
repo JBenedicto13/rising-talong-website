@@ -22,6 +22,11 @@ footer {
   align-items: center;  
   text-align: right;
 }
+
+.logoFooter img {
+  cursor: pointer;
+}
+
 footer img {
   max-width: 200px;
   max-height: 200px;
@@ -31,7 +36,6 @@ footer ul{
   display: flex;
   align-items: center;
   padding-top: 15px;
-
 }
 footer ul li {
   list-style: none;
@@ -42,10 +46,15 @@ footer ul li a{
   margin-left: 40px;
   color: white;
   margin-right: 15px;
-} 
+}
 footer h3{
   color: white;
 }
+
+.logoFooter h3 {
+  display: none;
+}
+
 .btn-mint {
   display: inline-block;
   padding: 4px 20px;
@@ -53,4 +62,35 @@ footer h3{
   border-radius: 10px;
   font-weight: bold;
   letter-spacing: 1px;
+}
+
+@media (max-width: 918px) {
+  footer {
+    max-height: min-content;
+    padding: 10px 0;
+    margin: 0;
+    flex-wrap: wrap;
+  }
+
+  .logoFooter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 50px;
+  }
+  .logoFooter img {
+      min-width: 120px;
+  }
+  .logoFooter h3 {
+    display: block;
+  }
+
+  .iconsFooter h3{
+    display: none;
+  }
+
+  footer img {
+    max-width: 100px;
+    max-height: 100px;
+  }
 }

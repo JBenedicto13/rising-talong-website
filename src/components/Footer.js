@@ -8,24 +8,22 @@ function Footer(){
   return (
     <div className="footer">
       <footer className="footerContainer">
-        <div>
-          <img src={logoFooter}></img>
+        <div className="logoFooter">
+          <img src={logoFooter} alt='logo'></img>
+          <h3>RISE WITH US</h3>
         </div>
-
-        <div>
+        <div className="iconsFooter">
           <h3>RISE WITH US</h3>
           <div>
             <ul>
               <li>
-                <a href="#"><img src={twitter}></img></a>
-             
+                <a href="#"><img src={twitter} alt='twitter'></img></a>
               </li>
               <li>
-                <a href="#"><img src={dc}></img></a>
-           
+                <a href="#"><img src={dc} alt='dc'></img></a>
               </li>
               <li>
-                <a href="#"><img src={open_sea}></img></a>
+                <a href="#"><img src={open_sea} alt='opensea'></img></a>
               </li>
               <li>
                 <a href="#"><button className="btn-mint">MINT</button></a>
