@@ -50,7 +50,7 @@ button {
 
 @media (max-width: 918px) {
     .navbar {
-        padding-top: 10%;
+        padding: 10%;
     }
     .logo {
       display: flex;

@@ -7,6 +7,8 @@
 .roadMapSec {
   background-color: #814780;
   height: 150vh;
+  display: flex;
+  flex-direction: column;
   overflow: hidden;
 }
 
@@ -115,4 +117,23 @@
   padding-top: 10px;
   padding-left: 1rem;
   margin-left: -17px;
+}
+
+@media (max-width: 918px) {
+  .roadMapSec {
+    height: max-content;
+    padding: 0 20px;
+  }
+
+  .branch-container{
+    min-width: 50px;
+    min-width: 75px;
+    padding-top: 0;
+    row-gap: 25px;
+  }
+
+  .branch-1, .branch-2, .branch-3, .branch-4 {
+    width: 250px;
+    margin-top: 0;  
+  }
 }

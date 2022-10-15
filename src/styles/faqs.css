@@ -81,3 +81,13 @@ section .faqsSec {
 .accordion-button:not(.collapsed)::after {
     background-image: url("https://akveo.github.io/eva-icons/outline/svg/minus-outline.svg");
 }
+
+@media (max-width: 918px) {
+    .Faqs {
+        padding: 25px;
+    }
+    .Faqs h1 {
+        text-align: center;
+        font-size: 24px;
+    }
+}
