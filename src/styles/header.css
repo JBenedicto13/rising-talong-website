@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-section {
+.headerSec {
     position: relative;
     width: 100%;
     min-height: 100vh;
@@ -62,7 +62,29 @@ section {
 }
 
 @media (max-width: 918px) {
+    .headerSec {
+        padding: 0;
+        margin-top: -100px;
+        margin-bottom: -100px;
+        overflow: hidden;
+    }
     .mint {
-        
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+    }
+
+    .mint .imgBox{
+        width: 250px;
+        justify-content: center;
+        padding-bottom: 25px;
+        margin-top: -50px;
+    }
+
+    .mint .textBox {
+        max-width: 350px;
+        text-align: center;
+        padding-left: 0px;
     }
 }

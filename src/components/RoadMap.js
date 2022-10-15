@@ -2,7 +2,7 @@ import React from "react";
 import '../styles/roadmap.css';
 function RoadMap() {
   return (
-      <div className="main-container" id="roadMapId"> 
+      <section className="roadMapSec" id="roadMapId"> 
          <h1 className="title">TALONG MAP</h1>
          <div className="road-map"> 
          <div className="branch-container">
@@ -79,7 +79,7 @@ function RoadMap() {
                </div>
             </div>
          </div>
-      </div>
+      </section>
   )
 }
 export default RoadMap

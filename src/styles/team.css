@@ -4,13 +4,19 @@
     box-sizing: border-box;    
 }
 
-section .teamSec {
-    margin-top: 20px;
+.teamSec {
+    width: 100%;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #5A235A;
+    overflow: hidden;
 }
 
 .team {
     background-color: #5A235A;
-    width: 75%;
+    width: 100%;
 }
 
 .team h1 {

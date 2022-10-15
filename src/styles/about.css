@@ -3,13 +3,14 @@
   margin: 0;
   box-sizing: border-box;
 }
-section {
+.aboutSec {
   position: relative;
   width: 100%;
   min-height: 80vh;
   display: flex;
   justify-content: center;
-  align-items: center;  
+  align-items: center;
+  background-color: #5A235A;
 }
 .about{
   width: 80%;
@@ -32,4 +33,17 @@ section {
 .text-container ul li{
   margin-bottom: 10px;
   position: relative;
+}
+
+@media (max-width: 1014px) {
+  .aboutSec {
+    min-height: 40vh;
+    padding: 50px 0;
+    border: green 1px solid;
+  }
+  .about {
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+  }
 }

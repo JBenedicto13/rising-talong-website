@@ -8,7 +8,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 10vh;
+    max-height: min-content;
     background-color: #5A235A;
 }
 
@@ -34,7 +34,7 @@
 }
 
 .logo {
-    max-width: 250px;
+    max-width: 120px;
     cursor: pointer;
 }
 

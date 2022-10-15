@@ -11,8 +11,7 @@
   justify-content: center;
   align-items: center; 
   background-color: antiquewhite;
-  
-  
+  overflow: hidden;
 }
 .partners {
   width: 100%;
@@ -22,8 +21,6 @@
   align-items: center;
   flex-direction: column;
   row-gap: 20px;
-
-  
 }
 .firstRow{
   position: relative;
