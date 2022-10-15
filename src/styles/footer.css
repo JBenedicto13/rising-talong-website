@@ -58,10 +58,11 @@ footer h3{
 .btn-mint {
   display: inline-block;
   padding: 4px 20px;
-  background: green;
+  background: #53AD45;
   border-radius: 10px;
   font-weight: bold;
   letter-spacing: 1px;
+  border: 3px solid black;
 }
 
 @media (max-width: 918px) {

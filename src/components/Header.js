@@ -1,6 +1,15 @@
 import { React } from "react";
 import '../styles/header.css';
 import short from '../assets/Short.png';
+import long from '../assets/Long.png';
+
+function makeLong() {
+    document.getElementById('hero').src = long;
+}
+
+function makeShort() {
+    document.getElementById('hero').src = short;
+}
 
 function Header() {
     return(
@@ -14,7 +23,10 @@ function Header() {
                     <button className="mint-btn"><a href="https://google.com/">MINT</a></button>
                 </div>
                 <div className="imgBox">
-                    <img src={short} className="short-talong" alt="hero"></img>
+                    <img
+                        onMouseOver={() => makeLong()}
+                        onMouseOut={() => makeShort()}
+                        src={short} className="short-talong" alt="hero" id="hero"></img>
                 </div>
             </div>
         </section>
