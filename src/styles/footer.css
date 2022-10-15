@@ -91,7 +91,20 @@ footer h3{
   }
 
   footer img {
-    max-width: 100px;
     max-height: 100px;
+  }
+}
+
+@media (max-width: 768px) {
+  footer img {
+    max-height: 80px;
+  }
+
+  .iconsFooter {
+    width: 100%;
+  }
+  .iconsFooter ul li {
+    width: 48px;
+    padding: 0 10px;
   }
 }

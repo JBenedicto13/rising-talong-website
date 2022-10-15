@@ -32,10 +32,11 @@
 
 @media (max-width: 768px) {
     .teamSec {
-        padding: 0;
+        padding: 0 0 50px 0;
     }
 
     .team h1 {
+        margin-top: 50px;
         text-align: center;
     }
 

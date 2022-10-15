@@ -5,7 +5,7 @@ function RoadMap() {
       <section className="roadMapSec" id="roadMapId"> 
          <h1 className="title">TALONG MAP</h1>
          <div className="road-map"> 
-         <div className="branch-container">
+            <div className="branch-container">
                <div className="branch-1">
                   <p>BRANCH 1</p>
                   <ol>

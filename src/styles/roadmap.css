@@ -121,8 +121,12 @@
 
 @media (max-width: 918px) {
   .roadMapSec {
-    height: max-content;
+    height: 150vh;
     padding: 0 20px;
+  }
+
+  .road-map {
+    margin-top: 25px;
   }
 
   .branch-container{
