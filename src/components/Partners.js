@@ -10,39 +10,40 @@ import meemoo from '../assets/Logo/MEEMOO.png';
 import tshirt from '../assets/Logo/Tshirt_Front.png';
 function Partners() {
   return (
-    <section className="containerPartners" id="partnersId">
+    <section className="partnersSec" id="partnersId">
       <div className="partners">
-        <div className="titlePartners"><h3>PARTNERS</h3></div>
-        <div className="firstRow">
-          <div>
-              <img className="logo" src={ininja} alt="ininja"/>
+          <h1>PARTNERS</h1>
+          <div className="row row1">
+              <div className="col cardDiv">
+                  <img src={ininja} alt='ininja'></img>
+              </div>
+              <div className="col cardDiv">
+                  <img src={pixel} alt='pixel'></img>
+              </div>
+              <div className="col cardDiv">
+                  <img src={newbs} alt='newbs'></img>
+              </div>
+              <div className="col cardDiv">
+                  <img src={company} alt='company'></img>
+              </div>
           </div>
-          <div>
-              <img className="logo" src={pixel} alt="pixel"/>
+
+          <div className="row">
+              <div className="col cardDiv">
+                  <img src={tclogo3} alt='tclogo3'></img>
+              </div>
+              <div className="col cardDiv">
+                  <img src={dye2row} alt='AlliahA'></img>
+              </div>
+              <div className="col cardDiv">
+                  <img src={meemoo} alt='meemoo'></img>
+              </div>
+              <div className="col cardDiv">
+                  <img src={tshirt} alt='tshirt'></img>
+              </div>
           </div>
-          <div>
-            <img className="logo" src={newbs} alt="newbs"/>
-          </div>
-          <div>
-            <img className="logo" src={company} alt="company"/>
-          </div>
-        </div>
-        <div className="secondRow">
-          <div>
-              <img className="logo" src={tclogo3} alt="tclogo3"/>
-          </div>
-          <div>
-              <img className="logo" src={dye2row} alt="dye2row"/>
-          </div>
-          <div>
-            <img className="logo" src={meemoo} alt="meemoo"/>
-          </div>
-          <div>
-            <img className="logo" src={tshirt} alt="tshirt"/>
-          </div>
-        </div>
       </div>
-    </section>
+  </section>
   )
 }
 export default Partners

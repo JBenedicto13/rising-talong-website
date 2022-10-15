@@ -19,21 +19,29 @@
     width: 100%;
 }
 
+.team .row .cardDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 .team h1 {
     color: #fff;
     text-align: left;
 }
 
-.cardDiv img {
-    display: block;
-}
-
-@media (max-width: 918px) {
+@media (max-width: 768px) {
     .teamSec {
         padding: 0;
     }
 
     .team h1 {
         text-align: center;
+    }
+
+    .cardDiv img {
+        display: block;
+        margin: auto;
     }
 }
