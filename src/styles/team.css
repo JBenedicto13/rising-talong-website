@@ -23,3 +23,17 @@
     color: #fff;
     text-align: left;
 }
+
+.cardDiv img {
+    display: block;
+}
+
+@media (max-width: 918px) {
+    .teamSec {
+        padding: 0;
+    }
+
+    .team h1 {
+        text-align: center;
+    }
+}
