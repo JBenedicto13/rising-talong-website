@@ -6,7 +6,7 @@ function About() {
      <section className="aboutSec" id="aboutId">
         <div className="about">
         <div className="img-container">
-            <img className="eggplants" src={eggplants}></img>
+            <img className="eggplants" src={eggplants} alt="eggplants"></img>
           </div>
           <div className="text-container">
             <h3>WHAT IS RISING EGGPLANTS?</h3>

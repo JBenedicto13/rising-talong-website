@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.ad520e05.css",
-    "main.js": "/static/js/main.a55cd5cf.js",
+    "main.css": "/static/css/main.fcecb996.css",
+    "main.js": "/static/js/main.6b0332e5.js",
     "static/media/ININJA.png": "/static/media/ININJA.309522101029df2245de.png",
     "static/media/MEEMOO.png": "/static/media/MEEMOO.63ca4372eb512f2b9f6e.png",
     "static/media/logo.png": "/static/media/logo.52afb9b1dd1e4f3f94ff.png",
     "static/media/background.png": "/static/media/background.e16c1f05321b82332832.png",
     "static/media/Company.png": "/static/media/Company.6fbdeb232deeba3da8fc.png",
+    "static/media/bg-texture.png": "/static/media/bg-texture.6807ffa2ebb71cc0c866.png",
     "static/media/Bristol.otf": "/static/media/Bristol.66cd8544f5b40004f4c2.otf",
+    "static/media/eggplants.png": "/static/media/eggplants.2215e67efdfa327ea343.png",
     "static/media/TCLOGO3.png": "/static/media/TCLOGO3.f63842d035d55e5830f2.png",
     "static/media/RonaldF.png": "/static/media/RonaldF.3c83806de99d187238de.png",
-    "static/media/eggplants.png": "/static/media/eggplants.1c02e8580adb011fc28f.png",
     "static/media/Tshirt_Front.png": "/static/media/Tshirt_Front.e7cfb3de6ba7c0798ec3.png",
     "static/media/AlliahA.png": "/static/media/AlliahA.f75265f02dc93d80b0f1.png",
     "static/media/TheresaB.png": "/static/media/TheresaB.78c92be0fc0394f64b56.png",
@@ -18,6 +19,7 @@
     "static/media/AshleeB.png": "/static/media/AshleeB.61bdf4879b24e0900736.png",
     "static/media/CamilleV.png": "/static/media/CamilleV.b1bd44e62bb9a63d27e6.png",
     "static/media/AesE.png": "/static/media/AesE.58408dcd21184f3826f9.png",
+    "static/media/JBB.png": "/static/media/JBB.f0c57a6137c111ded6f1.png",
     "static/media/ZhenB.png": "/static/media/ZhenB.2d5fedfe6a2707841966.png",
     "static/media/JuanitoO.png": "/static/media/JuanitoO.f8594835242aba95abec.png",
     "static/media/MarinellaC.png": "/static/media/MarinellaC.d37b4399feb6a0ba5ae8.png",
@@ -26,6 +28,7 @@
     "static/media/LizzieD.png": "/static/media/LizzieD.b76b67e844c03e535de0.png",
     "static/media/MartinC.png": "/static/media/MartinC.d2b90f70119d2b8a3a47.png",
     "static/media/ChinD.png": "/static/media/ChinD.702cc76d2459ea568c06.png",
+    "static/media/Long.png": "/static/media/Long.18ebd8017cfb4e4946e4.png",
     "static/media/MarkV.png": "/static/media/MarkV.fa568583ccba920f18f9.png",
     "static/media/Short.png": "/static/media/Short.38a1b189c25395091fd8.png",
     "static/media/IvanM.png": "/static/media/IvanM.07c2676abb5f4e4529e5.png",
@@ -33,11 +36,11 @@
     "static/media/hammy.png": "/static/media/hammy.c122725313ee7c8752d9.png",
     "static/media/newbs.png": "/static/media/newbs.40e8caf909d03a7bf3ee.png",
     "index.html": "/index.html",
-    "main.ad520e05.css.map": "/static/css/main.ad520e05.css.map",
-    "main.a55cd5cf.js.map": "/static/js/main.a55cd5cf.js.map"
+    "main.fcecb996.css.map": "/static/css/main.fcecb996.css.map",
+    "main.6b0332e5.js.map": "/static/js/main.6b0332e5.js.map"
   },
   "entrypoints": [
-    "static/css/main.ad520e05.css",
-    "static/js/main.a55cd5cf.js"
+    "static/css/main.fcecb996.css",
+    "static/js/main.6b0332e5.js"
   ]
 }

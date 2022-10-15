@@ -32,8 +32,8 @@ function Footer(){
                   <img
                       src={enterTwitter ? twitterGreen : twitter}
                       className="social"
-                      alt="twitterIcon"
-                  />
+                      alt="twitterIcon">
+                    </img>
                 </a>
               </li>
               <li>
@@ -46,8 +46,8 @@ function Footer(){
                     <img
                       src={enterDc ? dcGreen : dc}
                       className="social"
-                      alt="dcIcon"
-                    />
+                      alt="dcIcon">
+                    </img>
                   </a>
               </li>
               <li>
@@ -65,7 +65,7 @@ function Footer(){
                 </a>
               </li>
               <li>
-                <a href="#"><button className="btn-mint">MINT</button></a>
+                <a href="https://twitter.com/risingeggplants"><button className="btn-mint">MINT</button></a>
               </li>
             </ul>
           </div>
