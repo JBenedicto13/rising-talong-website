@@ -15,7 +15,6 @@ function App() {
     <BrowserRouter>
       <div className="App ff-bristol">
         <Navbar />
-        
         <Header />
         <About />
         <RoadMap />

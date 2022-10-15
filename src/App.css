@@ -16,3 +16,10 @@ section {
     background-color: #5A235A;
     overflow: hidden;
 }
+
+.navbar, .headerSec, .aboutSec, .faqsSec {
+  background-image: url('./assets/bg-texture.png');
+  background-position: top center;
+  background-attachment: fixed;
+  background-repeat: no-repeat; background-size: cover;
+}

@@ -10,12 +10,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #5A235A;
+    background-color: #814780;
     overflow: hidden;
 }
 
 .team {
-    background-color: #5A235A;
     width: 100%;
 }
 
