@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "../styles/navbar.css";
 import { FaBars } from "react-icons/fa";
 import { ImCross } from "react-icons/im";
@@ -22,6 +22,11 @@ const Navbar = () => {
   const [enterOpensea, setEnterOpensea] = useState(false);
   const [onHome, setOnHome] = useState(true);
   const navigate = useNavigate();
+  const [document_title, setDoucmentTitle] = useState("RisingEggplants");
+   useEffect(() => {
+    document.title = document_title; 
+  },[document_title]);
+
   return (
     <>
       <nav className='navbar sticky-top'>
@@ -31,16 +36,16 @@ const Navbar = () => {
           <Link to="/home">
             <li>Home</li>
           </Link>
-          <Link to={onHome ? "#aboutId" : "/#aboutId"} onClick={() => setOnHome(true)}>
+          <Link to={onHome ? "#aboutId" : "/#aboutId"} onClick={() => {setOnHome(true); setDoucmentTitle("RE | About");}}>
             <li>About</li>
           </Link>
-          <Link to={onHome ? "#roadMapId" : "/#roadMapId"} onClick={() => setOnHome(true)}>
+          <Link to={onHome ? "#roadMapId" : "/#roadMapId"} onClick={() => {setOnHome(true); setDoucmentTitle("RE | RoadMap");}}>
             <li>Roadmap</li>
           </Link>
-          <Link to={onHome ? "#teamId" : "/#teamId"} onClick={() => setOnHome(true)}>
+          <Link to={onHome ? "#teamId" : "/#teamId"} onClick={() => {setOnHome(true); setDoucmentTitle("RE | Team");}}>
             <li>Team</li>
           </Link>
-          <Link to='/mint' onClick={() => setOnHome(false)}>
+          <Link to='/mint' onClick={() => {setOnHome(false); setDoucmentTitle("RE | Mint");}}>
             <li>Mint</li>
           </Link>
           <li className="socialIcons"><a
