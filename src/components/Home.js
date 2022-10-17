@@ -5,6 +5,7 @@ import RoadMap from './RoadMap';
 import Faqs from './Faqs';
 import Team from './Team';
 import Partners from './Partners';
+import ScrollToTop from './ScrollToTop';
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
         <Faqs />
         <Team />
         <Partners />
+        <ScrollToTop />
     </>
   )
 }

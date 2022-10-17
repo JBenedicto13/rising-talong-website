@@ -20,23 +20,27 @@ const Navbar = () => {
   const [enterTwitter, setEnterTwitter] = useState(false);
   const [enterDc, setEnterDc] = useState(false);
   const [enterOpensea, setEnterOpensea] = useState(false);
+  const [onHome, setOnHome] = useState(true);
   const navigate = useNavigate();
   return (
     <>
       <nav className='navbar sticky-top'>
-        <img onClick={() => navigate('/')} src={logo} className="logo" alt="logo"></img>
+        <img onClick={() => navigate('/home')} src={logo} className="logo" alt="logo"></img>
         
         <ul className={Mobile ? "nav-links-mobile" : "nav-links"} onClick={() => setMobile(false)}>
-          <Link to='#aboutId'>
+          <Link to="/home">
+            <li>Home</li>
+          </Link>
+          <Link to={onHome ? "#aboutId" : "/#aboutId"} onClick={() => setOnHome(true)}>
             <li>About</li>
           </Link>
-          <Link to='#roadMapId'>
+          <Link to={onHome ? "#roadMapId" : "/#roadMapId"} onClick={() => setOnHome(true)}>
             <li>Roadmap</li>
           </Link>
-          <Link to='#teamId'>
+          <Link to={onHome ? "#teamId" : "/#teamId"} onClick={() => setOnHome(true)}>
             <li>Team</li>
           </Link>
-          <Link to='/mint'>
+          <Link to='/mint' onClick={() => setOnHome(false)}>
             <li>Mint</li>
           </Link>
           <li className="socialIcons"><a
