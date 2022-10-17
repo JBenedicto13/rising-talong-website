@@ -13,16 +13,18 @@ import twitterGreen from '../assets/twitter-green.png';
 
 //Routing
 import { HashLink as Link } from "react-router-hash-link";
+import { useNavigate } from "react-router-dom";
 
 const Navbar = () => {
   const [Mobile, setMobile] = useState(false);
   const [enterTwitter, setEnterTwitter] = useState(false);
   const [enterDc, setEnterDc] = useState(false);
   const [enterOpensea, setEnterOpensea] = useState(false);
+  const navigate = useNavigate();
   return (
     <>
       <nav className='navbar sticky-top'>
-        <img src={logo} className="logo" alt="logo"></img>
+        <img onClick={() => navigate('/')} src={logo} className="logo" alt="logo"></img>
         
         <ul className={Mobile ? "nav-links-mobile" : "nav-links"} onClick={() => setMobile(false)}>
           <Link to='#aboutId'>
@@ -34,7 +36,7 @@ const Navbar = () => {
           <Link to='#teamId'>
             <li>Team</li>
           </Link>
-          <Link to='/'>
+          <Link to='/mint'>
             <li>Mint</li>
           </Link>
           <li className="socialIcons"><a

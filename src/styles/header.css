@@ -19,7 +19,7 @@
 .mint {
     position: relative;
     display: flex;
-    width: 100%;
+    width: 75%;
     justify-content: space-between;
     align-items: center;
 }
@@ -47,6 +47,10 @@
     letter-spacing: 1px;
     border: 3px solid black;
 }
+
+.mint .mint-btn:hover {
+    background: antiquewhite;
+}
 .mint .mint-btn a{
     text-decoration: none;
     color: black;
@@ -72,6 +76,7 @@
         justify-content: center;
         align-items: center;
         margin: 0;
+        width: 100%;
     }
 
     .mint .imgBox{

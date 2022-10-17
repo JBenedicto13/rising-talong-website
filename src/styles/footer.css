@@ -65,6 +65,10 @@ footer h3{
   border: 3px solid black;
 }
 
+.btn-mint:hover {
+  background: antiquewhite;
+}
+
 @media (max-width: 918px) {
   footer {
     max-height: min-content;
