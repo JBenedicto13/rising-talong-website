@@ -3,7 +3,7 @@ import './App.css';
 import Footer from './components/Footer';
 import { Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
-import Mint from './components/Mint';
+import MintPage from './components/MintPage';
 import Home from './components/Home';
 
 function App() {
@@ -12,7 +12,7 @@ function App() {
         <Navbar />
         <Routes>
           <Route path='/' element={<Home />} />
-          <Route path='/mint' element={<Mint />} />
+          <Route path='/mint' element={<MintPage />} />
         </Routes>
         <Footer />
       </div>
