@@ -4,6 +4,96 @@
   box-sizing: border-box;
 }
 
+.utilitySec {
+  background-color: #FEF5DA;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  padding: 200px;
+  position: relative;
+}
+
+.title {
+  color: black;
+  text-transform: uppercase;
+  position: absolute;
+  top: 80px;
+}
+
+.util-text {
+  text-transform: uppercase;
+  text-align: left;
+  font-size: 18px;
+}
+
+.utility-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  gap: 80px;
+}
+
+.utility-container .util-group {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.utility-card {
+  background-color: white;
+  border-radius: 12px;
+  border: black solid 2px;
+  width: 480px;
+  z-index: 1;
+}
+
+.util-card-header {
+  position: relative;
+}
+.util-card-header img {
+  height: 200px;
+  position: absolute;
+  margin: auto;
+  top: -130px;
+  left: 0;
+  right: 0;
+}
+
+.util-card-body {
+  margin: 80px 50px 50px 50px;
+}
+
+#soilImg {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+#eggplantImg {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: auto;
+}
+
+@media (max-width: 918px) {
+  .utilitySec {
+    height: 150vh;
+    padding: 0 20px;
+  }
+
+  .utility-container {
+    margin-top: 25px;
+  }
+}
+/* *{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 .roadMapSec {
   background-color: #814780;
   height: 150vh;
@@ -149,4 +239,4 @@
     width: 250px;
     margin-top: 0;
   }
-}
+} */
