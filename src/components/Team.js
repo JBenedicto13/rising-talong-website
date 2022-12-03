@@ -43,32 +43,21 @@ function Team() {
                     <div className="col cardDiv">
                         <img src={MarkV} alt='MarkV'></img>
                     </div>
-                    <div className="col cardDiv">
-                        <img src={LizzieD} alt='LizzieD'></img>
-                    </div>
+                    
                     <div className="col cardDiv">
                         <img src={JBB} alt='JBB'></img>
-                    </div>
-                </div>
-
-                <div className="row">
-                    <div className="col cardDiv">
-                        <img src={AlliahA} alt='AlliahA'></img>
                     </div>
                     <div className="col cardDiv">
                         <img src={TheresaB} alt='TheresaB'></img>
                     </div>
-                    <div className="col cardDiv">
-                        <img src={RoselanI} alt='RoselanI'></img>
-                    </div>
                 </div>
 
                 <div className="row">
                     <div className="col cardDiv">
-                        <img src={DarleneV} alt='DarleneV'></img>
+                        <img src={RoselanI} alt='RoselanI'></img>
                     </div>
                     <div className="col cardDiv">
-                        <img src={ZhenB} alt='ZhenB'></img>
+                        <img src={DarleneV} alt='DarleneV'></img>
                     </div>
                     <div className="col cardDiv">
                         <img src={ChinD} alt='ChinD'></img>
@@ -80,25 +69,17 @@ function Team() {
                         <img src={AshleeB} alt='AshleeB'></img>
                     </div>
                     <div className="col cardDiv">
-                        <img src={IvanM} alt='IvanM'></img>
+                        <img src={MarinellaC} alt='MarinellaC'></img>
                     </div>
                     <div className="col cardDiv">
-                        <img src={MarinellaC} alt='MarinellaC'></img>
+                        <img src={CamilleV} alt='CamilleV'></img>
                     </div>
                 </div>
 
                 <div className="row">
                     <div className="col cardDiv">
-                        <img src={CamilleV} alt='CamilleV'></img>
-                    </div>
-                    <div className="col cardDiv">
                         <img src={RonaldF} alt='RonaldF'></img>
                     </div>
-                    <div className="col cardDiv">
-                        <img src={AesE} alt='AesE'></img>
-                    </div>
-                </div>
-                <div className="row">
                     <div className="col cardDiv">
                         <img src={CriskenM} alt='CriskenM'></img>
                     </div>
