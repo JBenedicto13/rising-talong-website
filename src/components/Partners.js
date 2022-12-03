@@ -3,7 +3,7 @@ import '../styles/partners.css';
 import ininja from '../assets/Logo/ININJA.png';
 import pixel from  '../assets/Logo/hammy.png';
 import newbs from  '../assets/Logo/newbs.png';
-import company from '../assets/Logo/Company.png';
+import tinygeisha from '../assets/Logo/tinygeisha.png';
 import tclogo3 from '../assets/Logo/TCLOGO3.png';
 import dye2row from '../assets/Logo/DYE2ROW.png';
 import meemoo from '../assets/Logo/MEEMOO.png';
@@ -24,7 +24,7 @@ function Partners() {
                   <img src={newbs} alt='newbs'></img>
               </div>
               <div className="col cardDiv">
-                  <img src={company} alt='company'></img>
+                  <img src={tinygeisha} alt='tinygeisha'></img>
               </div>
           </div>
 
