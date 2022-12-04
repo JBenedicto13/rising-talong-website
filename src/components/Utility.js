@@ -10,7 +10,7 @@ import soil from '../assets/utility/soil.png';
 
 function Utility() {
   return (
-      <section className="utilitySec" id="utilitypId">
+      <section className="utilitySec" id="utilityId">
         <img id="eggplantImg" src={eggplant} alt='eggplant'></img>
         <img id="soilImg" src={soil} alt='soil'></img>
         

@@ -33,14 +33,14 @@ const Navbar = () => {
         <img onClick={() => navigate('/home')} src={logo} className="logo" alt="logo"></img>
         
         <ul className={Mobile ? "nav-links-mobile" : "nav-links"} onClick={() => setMobile(false)}>
-          <Link to="/home">
+          <Link to={onHome ? "#headerId" : "/#headerId"} onClick={() => {setOnHome(true); setDoucmentTitle("RisingEggplants");}}>
             <li>Home</li>
           </Link>
           <Link to={onHome ? "#aboutId" : "/#aboutId"} onClick={() => {setOnHome(true); setDoucmentTitle("RE | About");}}>
             <li>About</li>
           </Link>
-          <Link to={onHome ? "#roadMapId" : "/#roadMapId"} onClick={() => {setOnHome(true); setDoucmentTitle("RE | RoadMap");}}>
-            <li>Roadmap</li>
+          <Link to={onHome ? "#utilityId" : "/#utilityId"} onClick={() => {setOnHome(true); setDoucmentTitle("RE | Utility");}}>
+            <li>Utility</li>
           </Link>
           <Link to={onHome ? "#teamId" : "/#teamId"} onClick={() => {setOnHome(true); setDoucmentTitle("RE | Team");}}>
             <li>Team</li>
