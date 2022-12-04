@@ -40,7 +40,7 @@ function Footer(){
                 <a
                   onMouseOver={() => setEnterDc(true)}
                   onMouseOut={() => setEnterDc(false)}
-                  href="https://discord.gg/EmJFMneTMk"
+                  href="https://discord.com/invite/uQZxNDDE"
                   target="_blank"
                   rel="noreferrer noopener">
                     <img
