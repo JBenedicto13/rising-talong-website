@@ -64,7 +64,7 @@ const Navbar = () => {
           <li className="socialIcons"><a
               onMouseOver={() => setEnterDc(true)}
               onMouseOut={() => setEnterDc(false)}
-              href="https://discord.com/invite/uQZxNDDE"
+              href="https://discord.gg/pZdAdzqgP7"
               target="_blank"
               rel="noreferrer noopener">
                   <img

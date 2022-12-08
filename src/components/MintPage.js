@@ -6,7 +6,7 @@ const MintPage = () => {
     <div className='mintPage'>
       <iframe
         style={mintStyle}
-        src="https://gateway.ipfscdn.io/ipfs/QmPaVYdGue8zEXFKqrtVHpvzBvufM1DYzw5n1of3KVPG88/nft-drop.html?contract=0x4773918ca1c59ec33B1b6bB5515552765138AE99&chainId=80001"
+        src="https://gateway.ipfscdn.io/ipfs/Qmcine1gpZUbQ73nk7ZGCcjKBVFYXrEtqrhujXk3HDQ6Nn/erc721.html?contract=0xc341cdbF90e13556179271a24e182b831afCF90c&chainId=80001"
         width="100%"
         height="600px"
         frameBorder="0"
