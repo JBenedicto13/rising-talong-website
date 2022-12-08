@@ -32,7 +32,7 @@ function Utility() {
                 <img src={util2} alt="a"></img>
               </div>
               <div className="util-card-body">
-                <p className="util-text util-title">#2 exclusive web3 skill 
+                <p className="util-text util-title">#2 exclusive web3 skills 
 workshop</p>
                 <p className="util-text">We believe in the method of empowering individuals through learning! Rising Eggplants aim to provide exclusive workshops revolving around project management, moderation, making art, hosting, and more!</p>
               </div>

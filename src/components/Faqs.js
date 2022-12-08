@@ -55,12 +55,11 @@ function Faqs() {
                                     <div id="flush-collapseThree" className="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
                                     <div className="accordion-body">
                                         <p>
-                                            1) Access to Exclusive Art and Environmental Sessions <br />  
-                                            2) Discounts from Business and Brand Partners <br />
-                                            3) Exclusive Holder Events and Giveaways. <br />
-                                            4) ACCESS TO TALONGCOMICS <br />
-                                            5) ACCESS TO NFT DEGEN CHANNEL <br />
-                                            6) ACCESS TO POSSIBLE WEB3 JOB OPPORTUNITIES
+                                            #1 TROPANG TALONG MEMBERSHIP <br />
+                                            #2 EXCLUSIVE WEB3 SKILLS WORKSHOP <br />
+                                            #3 ACCESS TO TALONG ALPHA CHANNEL <br />
+                                            #4 ACCESS TO PARTNER DISCOUNTS <br />
+                                            #5 TALONG PHYSICAL ITEMS (COMING SOON)
                                         </p>
                                     </div>
                                     </div>
