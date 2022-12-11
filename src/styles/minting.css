@@ -19,3 +19,16 @@
     text-transform: uppercase;
     text-align: left;
 }
+
+@media (max-width: 670px) {
+    .maintenancediv {
+        flex-direction: column;
+    }
+    .maintenancediv img {
+        width: auto;
+        height: 360px;
+    }
+    #maintenancetext {
+        text-align: center;
+    }
+}
