@@ -7,7 +7,7 @@ const MintPage = () => {
     <div className='mintPage'>
       <div className='maintenancediv'>
         <img src={logo} alt='logo'></img>
-        <h1 id='maintenancetext'>Under Maintenace,<br></br> please comeback later.</h1>
+        <h1 id='maintenancetext'>Under Maintenance,<br></br> please come back later.</h1>
       </div>
       
       {/* <iframe
