@@ -1,23 +1,21 @@
 import React from 'react';
 import "../styles/minting.css";
-import logo from '../assets/logo.png';
+// import logo from '../assets/logo.png';
 
 const MintPage = () => {
   return (
     <div className='mintPage'>
-      <div className='maintenancediv'>
+      {/* <div className='maintenancediv'>
         <img src={logo} alt='logo'></img>
         <h1 id='maintenancetext'>Under Maintenance,<br></br> please come back later.</h1>
-      </div>
+      </div> */}
       
-      {/* <iframe
-        style={mintStyle}
-        src="https://gateway.ipfscdn.io/ipfs/Qmcine1gpZUbQ73nk7ZGCcjKBVFYXrEtqrhujXk3HDQ6Nn/erc721.html?contract=0xc341cdbF90e13556179271a24e182b831afCF90c&chainId=80001"
+      <iframe
+        src="https://gateway.ipfscdn.io/ipfs/Qmcine1gpZUbQ73nk7ZGCcjKBVFYXrEtqrhujXk3HDQ6Nn/erc721.html?contract=0x1B64b5F28C062236d12272230430aCDe0c4660DE&chainId=137"
         width="100%"
         height="600px"
-        frameBorder="0"
         title='NFTDrop'
-      ></iframe> */}
+      ></iframe>
     </div>
   )
 }
