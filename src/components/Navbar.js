@@ -77,7 +77,7 @@ const Navbar = () => {
           <li className="socialIcons"><a
               onMouseOver={() => setEnterOpensea(true)}
               onMouseOut={() => setEnterOpensea(false)}
-              href="https://opensea.io/"
+              href="https://opensea.io/collection/rising-eggplants"
               target="_blank"
               rel="noreferrer noopener">
                   <img

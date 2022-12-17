@@ -54,7 +54,7 @@ function Footer(){
                 <a
                   onMouseOver={() => setEnterOpensea(true)}
                   onMouseOut={() => setEnterOpensea(false)}
-                  href="https://opensea.io/"
+                  href="https://opensea.io/collection/rising-eggplants"
                   target="_blank"
                   rel="noreferrer noopener">
                     <img
@@ -65,7 +65,7 @@ function Footer(){
                 </a>
               </li>
               <li>
-                <a href="https://twitter.com/risingeggplants"><button className="btn-mint">MINT</button></a>
+                <a href="https://risingeggplants.vercel.app/mint"><button className="btn-mint">MINT</button></a>
               </li>
             </ul>
           </div>
